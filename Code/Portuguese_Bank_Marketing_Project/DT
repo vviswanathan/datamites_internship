@@ -1,13 +1,13 @@
 digraph Tree {
 node [shape=box, style="filled", color="black"] ;
 0 [label="duration <= 521.5\ngini = 0.207\nsamples = 33908\nvalue = [29930, 3978]\nclass = no", fillcolor="#e89253"] ;
-1 [label="month_cat <= 9.5\ngini = 0.142\nsamples = 30172\nvalue = [27844, 2328]\nclass = no", fillcolor="#e78c4a"] ;
+1 [label="month <= 9.5\ngini = 0.142\nsamples = 30172\nvalue = [27844, 2328]\nclass = no", fillcolor="#e78c4a"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
 2 [label="duration <= 206.5\ngini = 0.125\nsamples = 29328\nvalue = [27355, 1973]\nclass = no", fillcolor="#e78a47"] ;
 1 -> 2 ;
 3 [label="age <= 60.5\ngini = 0.061\nsamples = 18701\nvalue = [18115, 586]\nclass = no", fillcolor="#e6853f"] ;
 2 -> 3 ;
-4 [label="poutcome_cat <= 2.5\ngini = 0.055\nsamples = 18417\nvalue = [17895, 522]\nclass = no", fillcolor="#e6853f"] ;
+4 [label="poutcome <= 2.5\ngini = 0.055\nsamples = 18417\nvalue = [17895, 522]\nclass = no", fillcolor="#e6853f"] ;
 3 -> 4 ;
 5 [label="gini = 0.146\nsamples = 3022\nvalue = [2782, 240]\nclass = no", fillcolor="#e78c4a"] ;
 4 -> 5 ;
