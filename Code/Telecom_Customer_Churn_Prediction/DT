@@ -33,7 +33,7 @@ node [shape=box, style="filled", color="black"] ;
 13 -> 15 ;
 16 [label="VMailMsg <= 7.0\ngini = 0.492\nsamples = 208\nvalue = [91, 117]\nclass = yes", fillcolor="#d3e9f9"] ;
 0 -> 16 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-17 [label="EveCharge <= 15.5\ngini = 0.38\nsamples = 149\nvalue = [38, 111]\nclass = yes", fillcolor="#7dbfee"] ;
+17 [label="EveMins <= 187.5\ngini = 0.38\nsamples = 149\nvalue = [38, 111]\nclass = yes", fillcolor="#7dbfee"] ;
 16 -> 17 ;
 18 [label="DayMins <= 301.5\ngini = 0.498\nsamples = 64\nvalue = [34, 30]\nclass = no", fillcolor="#fcf0e8"] ;
 17 -> 18 ;
